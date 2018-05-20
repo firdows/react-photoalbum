@@ -1,9 +1,10 @@
 import App from './pages/App';
+import Home from './pages/Home';
 
 const routes = [
     {
         path: '/',
-        component: App
+        component: Home
     }
 ]
 

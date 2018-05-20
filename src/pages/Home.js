@@ -1,0 +1,15 @@
+import React,{Component} from 'react';
+
+
+class Home extends Component{
+
+    render(){
+        return (
+            <div>
+                <h1>Page Home</h1>
+            </div>
+        )
+    }
+
+
+}
