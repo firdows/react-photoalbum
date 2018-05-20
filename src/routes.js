@@ -1,10 +1,20 @@
 import App from './pages/App';
 import Home from './pages/Home';
+import User from './pages/User';
 
 const routes = [
     {
         path: '/',
-        component: Home
+        component: App,
+        indexRoute: {
+            component: Home
+        },
+        childRoutes: [
+            {
+                path: 'user',
+                component: User
+            }
+        ]
     }
 ]
 

@@ -8,12 +8,13 @@ const Header = () => {
                 <div className="navbar-brand">
                     Photo Album (Sample)
                 </div>
-            </div>
-            <div className="navbar-menu">
 
-                <div className="navbar-start">
-                    <Link to="/" className="navbar-item">Home</Link>
-                    <Link to="/user" className="navbar-item">User</Link>
+                <div className="navbar-menu">
+
+                    <div className="navbar-start">
+                        <Link to="/" className="navbar-item">Home</Link>
+                        <Link to="/user" className="navbar-item">User</Link>
+                    </div>
                 </div>
             </div>
         </nav>

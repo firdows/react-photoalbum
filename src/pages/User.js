@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
 
-class Home extends Component {
+class User extends Component {
 
     render() {
         return (
             <div>
-                <h1>Page Home</h1>
+                <h1>Page User</h1>
             </div>
         )
     }
 
 }
 
-export default Home
+export default User
