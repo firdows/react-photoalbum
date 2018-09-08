@@ -4,9 +4,9 @@ export default class Left extends Component {
     render() {
         return (
             <nav className="panel">
-                <p className="panel-heading" style={{margin:'0px',}}>
+                <div className="panel-heading" style="margin:0px;">
                     repositories
-                </p>
+                </div>
                 <div className="panel-block">
                     <p className="control has-icons-left">
                         <input className="input is-small" type="text" placeholder="search"/>
@@ -20,6 +20,7 @@ export default class Left extends Component {
                     <a>public</a>
                     <a>private</a>
                     <a>sources</a>
+                    <a>forks</a>
                 </p>
                 <a className="panel-block is-active">
                     <span className="panel-icon">
