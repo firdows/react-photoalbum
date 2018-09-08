@@ -14,7 +14,11 @@ class Home extends Component {
                     + คลิกบวกอายุ</button>
                 &nbsp;
                 <button onClick={this.props.decreteAge}>
-                    - คลิกบวกอายุ</button>
+                    - คลิกบวกอายุ</button>                
+                
+                    &nbsp;
+                <button onClick={this.props.resetAge}>
+                    - Reset</button>
 
             </div>
         )
@@ -38,6 +42,9 @@ function mapDispatchToProps(dispatch) {
         },
         decreteAge: () => {
             dispatch({type: 'DECREMENT'})
+        },
+        resetAge: () => {
+            dispatch({type: 'RESET'})
         }
     }
 }
