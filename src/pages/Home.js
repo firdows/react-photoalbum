@@ -32,7 +32,7 @@ class Home extends Component {
 }
 
 function mapStateToProps(state) {
-    return {age: state}
+    return {age: state.counter}
 }
 
 function mapDispatchToProps(dispatch) {

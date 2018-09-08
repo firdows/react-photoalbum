@@ -7,21 +7,9 @@ import {Router, browserHistory} from 'react-router';
 import routes from './routes';
 import {createStore} from 'redux';
 import {Provider} from 'react-redux'
+import reducers from './reducers'
 
-function countAge(state = 0, action) {
-    switch (action.type) {
-        case 'INCREMENT':
-            return state + 1;
-        case 'DECREMENT':
-            return state - 1;
-        case 'RESET':
-            return 0;
-        default:
-            return state
-    }
-}
-
-const store = createStore(countAge)
+const store = createStore(reducers)
 store.subscribe(() => {
     console.log('subscribe', store.getState())
 })
