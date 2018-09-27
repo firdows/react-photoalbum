@@ -6,7 +6,7 @@ const Header = () => {
         <nav className="navbar">
             <div className="container">
                 <div className="navbar-brand">
-                    Photo Album (Sample)
+                    Photo Album (Sample)1111
                 </div>
 
                 <div className="navbar-menu">

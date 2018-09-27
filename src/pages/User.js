@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import UserList from './Users/UserList';
+import UserList from '../components/Users/UserList';
 
 class User extends Component {
     state = {
@@ -19,7 +19,7 @@ class User extends Component {
         return (
             <div>
                 <h1>Page User</h1>
-                {isLoading && <div>Loading...</div>}
+                {isLoading && <div>Loading... ... ...</div>}
                 <UserList data={data}/>
             </div>
         )
